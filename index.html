@@ -3,55 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Simple Site</title>
-  <!-- Intentionally minimal: no external CSS/JS. -->
+  <title>My Core Values</title>
   <style>
-    /* Tiny, readable defaults (can be removed if rubric forbids CSS) */
-    body { font-family: Arial, sans-serif; line-height: 1.4; margin: 16px; }
-    img { max-width: 100%; height: auto; }
-    .box { border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#eee;line-height:1.5}
+    header,footer{background:#0d3b66;color:#fff;padding:16px 0;text-align:center}
+    nav a{color:#fff;text-decoration:none;margin:0 8px}
+    .wrap{max-width:900px;margin:16px auto;background:#fff;padding:24px;border:1px solid #ddd}
+    h1,h2{margin:0 0 12px}
+    h2{margin-top:16px}
+    ul{padding-left:20px}
+    img{max-width:100%;height:auto;border:1px solid #ccc}
   </style>
 </head>
 <body>
-  <h1>Website Title</h1>
-  <p>Short intro paragraph about the site. Replace this with the real content from the assignment.</p>
+  <header>
+    <h1>My Core Values</h1>
+    <nav>
+      <a href="index.html">Home</a> | <a href="industry.html">Industry</a>
+    </nav>
+  </header>
 
-  <h2>Section Heading</h2>
-  <p>A simple paragraph with <a href="#">a link</a>. Keep text short and clear.</p>
+  <main class="wrap">
+    <h2>Integrity</h2>
+    <p>I believe in being honest and transparent in all my actions, personally and professionally.</p>
 
-  <h3>List Example</h3>
-  <ul>
-    <li>Item one</li>
-    <li>Item two</li>
-    <li>Item three</li>
-  </ul>
+    <h2>Continuous Learning</h2>
+    <p>I strive to grow through curiosity, learning new skills, and staying open to feedback.</p>
 
-  <h3>Image Example</h3>
-  <div class="box">
-    <img src="placeholder.jpg" alt="Describe the image here">
-    <p>Caption for the image (optional).</p>
-  </div>
+    <h2>Respect</h2>
+    <p>I value diversity of thought and treat everyone with dignity and respect.</p>
 
-  <h3>Table Example (only if rubric requires)</h3>
-  <table border="1" cellpadding="4" cellspacing="0">
-    <tr>
-      <th>Header 1</th>
-      <th>Header 2</th>
-    </tr>
-    <tr>
-      <td>Cell A1</td>
-      <td>Cell A2</td>
-    </tr>
-    <tr>
-      <td>Cell B1</td>
-      <td>Cell B2</td>
-    </tr>
-  </table>
+    <h2>Responsibility</h2>
+    <p>I take ownership of my actions and commit to ethical decision-making.</p>
 
-  <h3>Contact (if needed)</h3>
-  <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    <h2>Image</h2>
+    <img src="values.jpg" alt="An image that represents my values">
+  </main>
 
-  <hr>
-  <p><small>Footer text © 2025</small></p>
+  <footer>© 2025 My Portfolio</footer>
 </body>
 </html>
